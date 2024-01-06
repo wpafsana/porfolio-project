@@ -6,6 +6,7 @@
     font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
  }
+ 
 .text-primary{
  color: #FD6E0A;
 }
@@ -27,8 +28,6 @@ background-position: bottom right,bottom left;
 background-color: #FFF8F3; 
 background-size: 700px,90px;
 padding-top: 30px;
-
-
  
 }
 nav{
@@ -76,7 +75,7 @@ font-weight: 600;
 margin-bottom: 0 ;
 }
 .banner-title{
- color:  #181818;
+ color:#181818;
 font-size: 85px;
 font-weight: 700;
 margin-top: 5px;
@@ -90,8 +89,10 @@ padding-bottom:20px;
 main{
     max-width: 1140px;
  margin:  auto;
- padding-top:  100px;
+ padding-top: 100px;
+
 }
+/* about section */
 .about{
    padding: 130px;
  border-radius: 10px;
@@ -129,4 +130,102 @@ font-size: 16px;
 
 font-weight: 700;
 line-height: 30px;
+}
+.what{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#what-i-do{
+    padding: 30px 150px;
+}
+.skill-part{
+    display: flex;
+
+}
+.skill{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+width: 267px;
+height: 250px;
+margin: 20px;
+}
+.skill img{
+width: 44px;
+height: 44px;
+padding-bottom:18px;
+}
+.skill-title{
+    color: #181818;
+font-size: 17px;
+font-weight: 700;
+padding-bottom: 20px;
+
+}
+.skill-des{
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+  
+}
+.summary-container{
+    display: flex;
+   
+}
+.summary-title{
+color:  #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+padding-bottom: 70px;
+
+}
+.left-summary{
+    padding-left: 20px;
+}
+.left-summary h1{
+    color:  #474747;
+font-size: 30px;
+font-weight: 700;
+padding-bottom: 20px;
+}
+.right-summary h1{
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700; 
+    padding-bottom: 20px; 
+}
+.msc h3{
+    color: #686464;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+   
+   
+}
+.msc h5{
+    color:  #757575;
+    font-size: 15px;
+   font-weight: 600;
+   padding-bottom: 5px;
+   
+}
+.msc p{
+    color:  #989797;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    
+}
+.download{
+   
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center;
+    padding-top:  40px;
+}
+hr{
+    border: 1px solid #ece6e6;
+    width: 500px;
 }
