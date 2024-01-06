@@ -20,10 +20,14 @@ font-family: 'Open Sans', sans-serif;
  padding:  15px 35px;
 }
 /* header section */
+header{
+    background-color: #FFF8F3;;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:0 200px ;
 }
 .nav-title{
 color: var(--Dark-01, #181818);
@@ -44,4 +48,29 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.banner{
+    padding:30px 30px 30px 200px;
+    display: flex;
+    background-color: #FFF8F3;
+    align-items: center;
+}
+.banner-pic{
+    width: 400px;
+}
+.banner-h3{
+    color: #474747;
+font-size: 45px;
+font-weight: 600;
+}
+.banner-title{
+    color:  #181818;
+font-size: 85px;
+font-weight: 700;
+}
+.banner-p{
+color: #757575;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 20px;
 }
