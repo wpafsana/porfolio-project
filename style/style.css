@@ -169,6 +169,9 @@ padding-bottom: 20px;
     font-weight: 400;
   
 }
+.resume{
+    padding-bottom: 100px;
+}
 .summary-container{
     display: flex;
    
@@ -221,11 +224,74 @@ padding-bottom: 20px;
 .download{
    
     display: flex;
-    align-items: center; /* Center vertically */
+    align-items: center;
     justify-content: center;
     padding-top:  40px;
 }
 hr{
     border: 1px solid #ece6e6;
     width: 500px;
+}
+footer{
+    background: #FFF8F3;
+    padding: 130px 200px;
+    align-items: center;
+   
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+   
+  
+}
+.left-side{
+   text-align:center ;
+ 
+}
+.left-side h1{
+    color: #181818;
+ font-size: 35px;
+    font-weight: 700;
+   
+}
+.left-side p{
+color: #474747;
+font-size: 14px;
+font-weight: 400;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.icons a{
+ font-size: 25px;
+color: #FD6E0A;
+padding-right: 20px;
+
+}
+.right-side{
+    text-align: center;
+}
+.right-side h1{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.form-section input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    color: #FFF;
+    font-size: 20px,18px;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700 ,0;
+    text-transform: capitalize;
+    width: 100%;
+}
+#button-submit{
+    width: 50%;
+}
+footer{
+   height: 400px;
+   margin-bottom: 100px;
 }
