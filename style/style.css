@@ -19,12 +19,13 @@ font-family: 'Open Sans', sans-serif;
    font-size: 20px;
    text-align: center;
   padding:  15px 35px;
+  margin-bottom: 10px;
 }
 /* header section */
 .header{
 background-image: url('../images/header_bg.png'),url('../images/developer.png');
 background-repeat: no-repeat,no-repeat;
-background-position: bottom right,bottom left;
+background-position: bottom right,top left;
 background-color: #FFF8F3; 
 background-size: 700px,90px;
 padding-top: 30px;
@@ -118,17 +119,17 @@ padding-top: 20px;
     padding-top: 30px;
 }
 .info-title{
- color:  #757575;
+ color:  #1e1d1d;
 text-align: center;
 font-size: 17px;
-font-weight: 400;
+font-weight: 700;
 line-height: 30px; 
 }
  .info-des{
     color: #474747;
 font-size: 16px;
 
-font-weight: 700;
+font-weight: 400;
 line-height: 30px;
 }
 /* what i do section */
@@ -244,6 +245,7 @@ footer{
 .contact{
     display: flex;
     justify-content: space-between;
+    gap:60px;
    
   
 }
@@ -296,5 +298,40 @@ padding-right: 20px;
 }
 footer{
    height: 400px;
-   margin-bottom: 100px;
+  
+}
+/* responsive media query */
+/* mobile device */
+@media screen and (max-width:576px){
+    .header{
+        background-image: none;
+    }
+     .banner-pic{
+        width: 100%;
+    }
+    .about{ 
+        padding: 20px;
+    }
+    .what{
+       flex-direction: column;
+    }
+    #what-i-do{
+        padding: 20px;
+    }
+    .skill-part,.summary-container,.contact,.banner{
+        flex-direction: column;
+    }
+    nav, nav > ul{
+        flex-direction: column;
+        margin: 10px;
+    }
+    footer{
+        padding: 10px;
+    }
+    .form-section input,textarea{
+        width: 70%;
+    }
+    .about-info {
+        flex-direction: row;
+    }
 }
